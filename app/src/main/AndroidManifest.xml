@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".page_two"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".page_one">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

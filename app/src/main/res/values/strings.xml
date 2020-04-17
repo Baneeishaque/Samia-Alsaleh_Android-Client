@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Samia</string>
+    <string name="SamiaAlsaleh">Samia Alsaleh</string>
+    <string name="Sign_In">SIGN IN</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot Password</string>
 </resources>
