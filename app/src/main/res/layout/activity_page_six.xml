@@ -12,6 +12,7 @@
         android:layout_height="40dp"
         android:background="#f8f8ff"
         android:text="@string/about_the_brand"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
