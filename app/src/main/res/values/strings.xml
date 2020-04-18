@@ -7,4 +7,12 @@
     <string name="FORGET_PASSWORD">FORGOT PASSWORD</string>
     <string name="Samia_Alsaleh">Samia_Alsaleh</string>
     <string name="FORGET_PASSWORD">FORGOT PASSWORD</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="Terms_And_Conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_the_brand">About The Brand</string>
+    <string name="graphic_spa_saloon">Graphic Spa Saloon</string>
+    <string name="updates">Updates</string>
+    <string name="track_your_product">Track Your Product</string>
+    <string name="feedback">Feedback</string>
 </resources>

@@ -4,4 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page_six"/>
+    tools:context=".page_six">
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#f8f8ff"
+        android:text="@string/about_the_brand"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/buttonGraphicSpa"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#f8f8ff"
+        android:text="@string/graphic_spa_saloon"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAbout"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Button
+        android:id="@+id/buttonUpdates"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#f8f8ff"
+        android:text="@string/updates"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGraphicSpa"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <Button
+        android:id="@+id/buttonTrackYourProduct"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#f8f8ff"
+        android:text="@string/track_your_product"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUpdates"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <Button
+        android:id="@+id/buttonFeedback"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#f8f8ff"
+        android:text="@string/feedback"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTrackYourProduct"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/buttonTerms"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#f8f8ff"
+        android:text="@string/Terms_And_Conditions"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFeedback"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <Button
+        android:id="@+id/buttonContact"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#f8f8ff"
+        android:text="@string/contact_us"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTerms"
+        app:layout_constraintVertical_bias="0.277" />
+</androidx.constraintlayout.widget.ConstraintLayout>
