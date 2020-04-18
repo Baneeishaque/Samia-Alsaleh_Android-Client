@@ -19,4 +19,6 @@
     <string name="body_care">Body Care</string>
     <string name="skin_care">Skin Care</string>
     <string name="shampoo">Shampoo</string>
+    <string name="continue">Continue</string>
+    <string name="payments">Payments</string>
 </resources>
