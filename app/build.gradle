@@ -18,6 +18,17 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+
+        release {
+            
+            keyAlias 'snake'
+            keyPassword '9895204814'
+            storeFile file('../keystore.jks')
+            storePassword '9895204814'
+        }
+    }
+
     buildTypes {
 
         release {
