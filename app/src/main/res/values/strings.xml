@@ -21,4 +21,11 @@
     <string name="shampoo">Shampoo</string>
     <string name="continue">Continue</string>
     <string name="payments">Payments</string>
+    <string name="price_details">Price Details</string>
+    <string name="price_1_item">Price(1 item)</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="total">Total</string>
+    <string name="valid_thru">valid thru</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="continue">Continue</string>
 </resources>

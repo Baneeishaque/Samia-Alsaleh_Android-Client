@@ -7,7 +7,7 @@
     tools:context=".page_eleven">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextName"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:background="#f8f8ff"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.144" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editTextAddress"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:background="#f8f8ff"
@@ -34,11 +34,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName"
         app:layout_constraintVertical_bias="0.07" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editTextMobileNo"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:background="#f8f8ff"
@@ -49,7 +49,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAddress"
         app:layout_constraintVertical_bias="0.08" />
 
     <RadioGroup
@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMobileNo"
         app:layout_constraintVertical_bias="0.114">
 
         <TextView
@@ -73,30 +73,31 @@
             android:textColor="#000000" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioButtonCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Credit / Debit Card" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButtonDelivery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cash on Delivery" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonContinue"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/button_border"
-        android:text="continue"
+        android:text="Continue"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-        app:layout_constraintVertical_bias="0.254" />
+        app:layout_constraintVertical_bias="0.254"
+        tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
