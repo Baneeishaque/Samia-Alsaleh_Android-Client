@@ -52,7 +52,7 @@ public class page_two extends AppCompatActivity {
         });
 
         ImageButton imageButtonInsta = findViewById(R.id.imageButtonInsta);
-        imageButtonFb.setOnClickListener(new View.OnClickListener() {
+        imageButtonInsta.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
