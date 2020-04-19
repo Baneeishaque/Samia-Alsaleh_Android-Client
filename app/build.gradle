@@ -21,7 +21,7 @@ android {
     signingConfigs {
 
         release {
-            
+
             keyAlias 'snake'
             keyPassword '9895204814'
             storeFile file('../keystore.jks')
@@ -33,6 +33,7 @@ android {
 
         release {
 
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
