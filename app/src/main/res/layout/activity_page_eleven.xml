@@ -14,7 +14,7 @@
         android:layout_marginTop="100dp"
         android:background="#f8f8ff"
         android:ems="10"
-        android:hint="Name"
+        android:hint="@string/name"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
         android:background="#f8f8ff"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Delivery Address"
+        android:hint="@string/delivery_address"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
         android:layout_marginTop="25dp"
         android:background="#f8f8ff"
         android:ems="10"
-        android:hint="Mobile Number"
+        android:hint="@string/mobile_number"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,13 +68,13 @@
             android:id="@+id/radioButtonCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Credit / Debit Card" />
+            android:text="@string/credit_debit_card" />
 
         <RadioButton
             android:id="@+id/radioButtonDelivery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cash on Delivery" />
+            android:text="@string/cash_on_delivery" />
     </RadioGroup>
 
     <Button
@@ -83,7 +83,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="25dp"
         android:background="@drawable/button_border"
-        android:text="Continue"
+        android:text="@string/Continue"
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
