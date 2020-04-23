@@ -97,7 +97,8 @@
         android:background="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@mipmap/facebk" />
+        app:srcCompat="@mipmap/facebk"
+        android:contentDescription="@string/fb" />
 
     <ImageButton
         android:id="@+id/imageButtonInsta"
@@ -109,7 +110,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageButtonFb"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@mipmap/insta" />
+        app:srcCompat="@mipmap/insta"
+        android:contentDescription="@string/insta" />
 
     <ImageButton
         android:id="@+id/imageButtonGoogle"
@@ -121,6 +123,7 @@
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@mipmap/google" />
+        app:srcCompat="@mipmap/google"
+        android:contentDescription="@string/googleplus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

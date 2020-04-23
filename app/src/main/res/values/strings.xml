@@ -26,5 +26,8 @@
     <string name="total">Total</string>
     <string name="valid_thru">valid thru</string>
     <string name="pay_now">Pay Now</string>
+    <string name="fb">fb</string>
+    <string name="insta">insta</string>
+    <string name="googleplus">googleplus</string>
 
 </resources>
