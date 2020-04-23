@@ -4,103 +4,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".page_six">
 
     <Button
         android:id="@+id/buttonAbout"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="100dp"
         android:background="#f8f8ff"
         android:text="@string/about_the_brand"
-        android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonGraphicSpa"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:background="#f8f8ff"
         android:text="@string/graphic_spa_saloon"
-        android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonAbout"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonAbout" />
 
     <Button
         android:id="@+id/buttonUpdates"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:background="#f8f8ff"
         android:text="@string/updates"
-        android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonGraphicSpa"
-        app:layout_constraintVertical_bias="0.063" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonGraphicSpa" />
 
     <Button
         android:id="@+id/buttonTrackYourProduct"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:background="#f8f8ff"
         android:text="@string/track_your_product"
-        android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonUpdates"
-        app:layout_constraintVertical_bias="0.104" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonUpdates" />
 
     <Button
         android:id="@+id/buttonFeedback"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:background="#f8f8ff"
         android:text="@string/feedback"
-        android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonTrackYourProduct"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonTrackYourProduct" />
 
     <Button
         android:id="@+id/buttonTerms"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:background="#f8f8ff"
         android:text="@string/Terms_And_Conditions"
-        android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFeedback"
-        app:layout_constraintVertical_bias="0.16" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonFeedback" />
 
     <Button
         android:id="@+id/buttonContact"
         android:layout_width="300dp"
         android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:background="#f8f8ff"
         android:text="@string/contact_us"
-        android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonTerms"
-        app:layout_constraintVertical_bias="0.277" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonTerms" />
 </androidx.constraintlayout.widget.ConstraintLayout>
