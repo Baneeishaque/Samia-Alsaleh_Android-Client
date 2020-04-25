@@ -47,5 +47,7 @@
     <string name="qr_1">QR 1</string>
     <string name="qr_8">QR 8</string>
     <string name="Sign_up">sign up</string>
+    <string name="buy">Buy</string>
+    <string name="description">Description</string>
 
 </resources>
