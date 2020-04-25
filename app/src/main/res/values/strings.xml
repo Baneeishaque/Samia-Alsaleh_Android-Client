@@ -26,5 +26,28 @@
     <string name="total">Total</string>
     <string name="valid_thru">valid thru</string>
     <string name="pay_now">Pay Now</string>
+    <string name="fb">fb</string>
+    <string name="insta">insta</string>
+    <string name="googleplus">googleplus</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email ID</string>
+    <string name="phone_no">Phone No</string>
+    <string name="wholesale_buyer">WHOLESALE BUYER</string>
+    <string name="Sign_in">sign in</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">Name</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="credit_debit_card">Credit / Debit Card</string>
+    <string name="cash_on_delivery">Cash on Delivery</string>
+    <string name="Continue">Continue</string>
+    <string name="card_number">Card Number</string>
+    <string name="qr_7">QR 7</string>
+    <string name="qr_1">QR 1</string>
+    <string name="qr_8">QR 8</string>
+    <string name="Sign_up">sign up</string>
+    <string name="buy">Buy</string>
+    <string name="description">Description</string>
 
 </resources>

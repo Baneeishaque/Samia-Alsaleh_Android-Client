@@ -56,5 +56,8 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
 
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
     implementation 'com.github.Baneeishaque:Android_Common_Utils_API_1:a39c13de3a'
 }
