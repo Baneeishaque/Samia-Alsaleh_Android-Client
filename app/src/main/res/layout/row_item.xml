@@ -20,7 +20,8 @@
             android:layout_height="150dp"
             android:layout_margin="10dp"
             android:src="@mipmap/ic_launcher"
-            android:layout_gravity="center_horizontal">
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/itemimage">
         </ImageView>
 
         <TextView
@@ -28,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Item Name"
+            android:text="@string/item_name"
             android:textColor="@android:color/background_dark"
             android:layout_marginTop="10dp"
             android:textSize="14sp"
@@ -39,7 +40,7 @@
             android:id="@+id/textViewItemPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Item Price"
+            android:text="@string/item_price"
             android:textSize="12sp"
             android:textColor="@android:color/background_dark"
             android:layout_gravity="center_horizontal"

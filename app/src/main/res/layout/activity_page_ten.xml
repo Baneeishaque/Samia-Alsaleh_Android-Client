@@ -11,15 +11,16 @@
         android:layout_height="250dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp">
     </androidx.viewpager2.widget.ViewPager2>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewItemName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="ItemName"
+        android:text="@string/itemname"
         android:textSize="14sp"
         android:textColor="#000000"
         android:textStyle="bold"
@@ -29,27 +30,27 @@
         android:layout_marginTop="25dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewItemPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ItemPrice"
+        android:text="@string/itemprice"
         android:textSize="14sp"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemName"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="75dp"/>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewSignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Qty"
+        android:text="@string/qty"
         android:textSize="14sp"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemName"
         android:layout_marginTop="25dp"
         android:layout_marginRight="100dp"/>
 
@@ -58,12 +59,12 @@
         android:layout_width="50dp"
         android:layout_height="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemName"
         android:layout_marginTop="25dp"
         android:layout_marginRight="30dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonBuy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="170dp"
@@ -76,32 +77,33 @@
         android:textColor="#ffffff"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewItemName" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/description"
         android:textSize="14sp"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBuy"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="30dp"/>
 
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/textViewMultiLine"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="qwerty"
+        android:text="@string/qwerty"
+        android:lines="5"
         android:textSize="12sp"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

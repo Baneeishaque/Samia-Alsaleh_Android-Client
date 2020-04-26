@@ -49,5 +49,14 @@
     <string name="Sign_up">sign up</string>
     <string name="buy">Buy</string>
     <string name="description">Description</string>
+    <string name="xxxxxx">xxxxxx</string>
+    <string name="xxxyy">xxxyy</string>
+    <string name="item_price">Item Price</string>
+    <string name="item_name">Item Name</string>
+    <string name="itemimage">ItemImage</string>
+    <string name="itemname">ItemName</string>
+    <string name="itemprice">ItemPrice</string>
+    <string name="qty">Qty</string>
+    <string name="qwerty">qwerty</string>
 
 </resources>

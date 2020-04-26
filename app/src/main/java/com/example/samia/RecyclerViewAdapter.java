@@ -1,5 +1,6 @@
 package com.example.samia;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ndk.utils_android1.ActivityUtils;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
 
@@ -55,6 +58,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    ActivityUtils.startActivity(v.getContext(),page_ten.class);
+                }
+            });
 
             imageViewItem = (ImageView)itemView.findViewById(R.id.imageViewItem);
             textViewItemName = (TextView)itemView.findViewById(R.id.textViewItemName);
