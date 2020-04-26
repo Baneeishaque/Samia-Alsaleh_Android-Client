@@ -19,24 +19,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonxxxx"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:background="#f8f8ff"
-        android:text="xxxxxx"
+        android:text="@string/xxxxxx"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonShampoo" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonxxyy"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:background="#f8f8ff"
-        android:text="xxxxxx"
+        android:text="@string/xxxyy"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonxxxx" />
 </androidx.constraintlayout.widget.ConstraintLayout>
