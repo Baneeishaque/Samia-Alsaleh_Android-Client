@@ -58,5 +58,8 @@
     <string name="itemprice">ItemPrice</string>
     <string name="qty">Qty</string>
     <string name="qwerty">qwerty</string>
+    <string name="cvv">CVV</string>
+    <string name="product">PRODUCT</string>
+    <string name="search">Search</string>
 
 </resources>
