@@ -28,7 +28,7 @@ public class page_nine extends AppCompatActivity {
 
     private void intialize() {
 
-        recyclerView = (RecyclerView)findViewById(R.id.recycerView);
+        recyclerView = (RecyclerView)findViewById(R.id.recycerView9);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2);
         recyclerView.setLayoutManager(gridLayoutManager);

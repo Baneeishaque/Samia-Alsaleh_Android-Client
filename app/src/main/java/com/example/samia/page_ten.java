@@ -7,15 +7,21 @@ import androidx.viewpager2.widget.CompositePageTransformer;
 import androidx.viewpager2.widget.MarginPageTransformer;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import ndk.utils_android1.ActivityUtils;
+
 public class page_ten extends AppCompatActivity {
 
     private ViewPager2 viewPager2;
+
+    Context activityContext = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +54,16 @@ public class page_ten extends AppCompatActivity {
         });
 
         viewPager2.setPageTransformer(compositePageTransformer);
+
+        Button buttonBuy = findViewById(R.id.buttonBuy);
+
+        buttonBuy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                ActivityUtils.startActivity(activityContext,page_eleven.class);
+            }
+        });
 
     }
 }
