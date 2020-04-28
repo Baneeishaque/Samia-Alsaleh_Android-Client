@@ -6,6 +6,11 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import ndk.utils_android1.ActivityUtils;
 
@@ -13,39 +18,32 @@ public class page_eight extends AppCompatActivity {
 
     Context activityContext = this;
 
+    RecyclerView recyclerView;
+
+    List<String> categoryList = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page_eight);
 
-        Button buttonShampoo = findViewById(R.id.buttonShampoo);
-        buttonShampoo.setOnClickListener(new View.OnClickListener() {
+        initialize();
 
-            @Override
-            public void onClick(View v) {
+    }
 
-                ActivityUtils.startActivity(activityContext, page_nine.class);
-            }
-        });
+    private void initialize() {
 
-        Button buttonxxxx = findViewById(R.id.buttonxxxx);
-        buttonxxxx.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        recyclerView =(RecyclerView) findViewById(R.id.recycerView8);
 
-                ActivityUtils.startActivity(activityContext,page_ten.class);
-            }
-        });
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(linearLayoutManager);
 
-        Button buttonxxyy = findViewById(R.id.buttonxxyy);
-        buttonxxyy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        categoryList.add("Shampoo");
+        categoryList.add("xxxx");
+        categoryList.add("xxyy");
 
-                ActivityUtils.startActivity(activityContext,page_ten.class);
-            }
-        });
+        recyclerView.setAdapter(new Page7Adapter(categoryList));
 
     }
 }

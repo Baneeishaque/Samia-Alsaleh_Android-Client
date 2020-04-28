@@ -6,37 +6,10 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     tools:context=".page_eight">
-
-    <Button
-        android:id="@+id/buttonShampoo"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="100dp"
-        android:background="#f8f8ff"
-        android:text="@string/shampoo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonxxxx"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="#f8f8ff"
-        android:text="@string/xxxxxx"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonShampoo" />
-
-    <Button
-        android:id="@+id/buttonxxyy"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="#f8f8ff"
-        android:text="@string/xxxyy"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonxxxx" />
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycerView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
 </androidx.constraintlayout.widget.ConstraintLayout>

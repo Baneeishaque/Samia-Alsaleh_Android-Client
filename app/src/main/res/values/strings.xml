@@ -61,5 +61,6 @@
     <string name="cvv">CVV</string>
     <string name="product">PRODUCT</string>
     <string name="search">Search</string>
+    <string name="ic_menu">ic_menu</string>
 
 </resources>
