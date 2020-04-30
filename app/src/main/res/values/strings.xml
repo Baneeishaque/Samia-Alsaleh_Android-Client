@@ -62,5 +62,7 @@
     <string name="product">PRODUCT</string>
     <string name="search">Search</string>
     <string name="ic_menu">ic_menu</string>
+    <string name="message">Message</string>
+    <string name="submit">Submit</string>
 
 </resources>
