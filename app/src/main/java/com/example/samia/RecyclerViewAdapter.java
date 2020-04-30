@@ -1,6 +1,5 @@
 package com.example.samia;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -62,7 +61,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    ActivityUtils.startActivity(v.getContext(),page_ten.class);
+                    ActivityUtils.startActivity(v.getContext(), r_page_ten.class);
                 }
             });
 

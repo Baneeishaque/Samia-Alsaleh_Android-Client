@@ -64,5 +64,14 @@
     <string name="ic_menu">ic_menu</string>
     <string name="message">Message</string>
     <string name="submit">Submit</string>
+    <string name="Product">Product</string>
+    <string name="salon_x">SALON X</string>
+    <string name="Submit">SUBMIT</string>
+    <string name="salonx_logo">SalonX_logo</string>
+    <string name="Sign_Up">SIGN UP</string>
+    <string name="User_name">User Name</string>
+    <string name="address">Address</string>
+    <string name="email_id_phone_no">Email ID / Phone No</string>
+    <string name="imageviewpage5">imageViewPage5</string>
 
 </resources>

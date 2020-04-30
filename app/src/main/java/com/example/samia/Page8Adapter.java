@@ -27,7 +27,7 @@ public class Page8Adapter extends RecyclerView.Adapter<Page8Adapter.MyHolder> {
     @Override
     public Page8Adapter.MyHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.page_seven_button,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.simple_button,parent,false);
         return new MyHolder(view);
     }
 
@@ -53,7 +53,7 @@ public class Page8Adapter extends RecyclerView.Adapter<Page8Adapter.MyHolder> {
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    ActivityUtils.startActivity(v.getContext(),page_nine.class);
+                    ActivityUtils.startActivity(v.getContext(), r_page_nine.class);
                 }
             });
 

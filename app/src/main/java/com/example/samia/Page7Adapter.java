@@ -4,7 +4,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -28,7 +27,7 @@ public class Page7Adapter extends RecyclerView.Adapter<Page7Adapter.MyHolder> {
     @Override
     public Page7Adapter.MyHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.page_seven_button,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.simple_button,parent,false);
         return new MyHolder(view);
     }
 
@@ -54,7 +53,7 @@ public class Page7Adapter extends RecyclerView.Adapter<Page7Adapter.MyHolder> {
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    ActivityUtils.startActivity(v.getContext(),page_eight.class);
+                    ActivityUtils.startActivity(v.getContext(), r_page_eight.class);
                 }
             });
 
