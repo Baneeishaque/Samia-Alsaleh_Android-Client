@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page_8"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/buttonProduct"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/Product"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:padding="15dp"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/plaintext_border"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/buttonTrackYourProduct"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/track_your_product"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:padding="15dp"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/plaintext_border"
+        app:layout_constraintTop_toBottomOf="@id/buttonProduct"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/buttonFeedback"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/feedback"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:padding="15dp"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/plaintext_border"
+        app:layout_constraintTop_toBottomOf="@id/buttonTrackYourProduct"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/buttonTerms"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/Terms_And_Conditions"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:padding="15dp"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/plaintext_border"
+        app:layout_constraintTop_toBottomOf="@id/buttonFeedback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/buttonContact"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/contact_us"
+        android:textAllCaps="false"
+        android:gravity="start"
+        android:padding="15dp"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/plaintext_border"
+        app:layout_constraintTop_toBottomOf="@id/buttonTerms"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page_4"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/salonx_logo"/>
+
+    <TextView
+        android:id="@+id/textViewSalon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salon_x"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/imageViewLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FORGET_PASSWORD"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewSalon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmailID"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email_id"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewForgotPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_border"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:elevation="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhoneNo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:hint="@string/phone_no"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmailID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_border"
+        android:elevation="10dp"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingRight="20dp"
+        android:paddingEnd="20dp"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/Submit"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_border"
+        app:layout_constraintTop_toBottomOf="@id/editTextPhoneNo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"
+        android:padding="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

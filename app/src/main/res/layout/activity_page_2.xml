@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page_2"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/salonx_logo"/>
+
+    <TextView
+        android:id="@+id/textViewSalon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imageViewLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:text="@string/salon_x"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sign_In"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewSalon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmailID"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/textViewSignin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/email_id_phone_no"
+        android:textSize="14sp"
+        android:background="@drawable/edit_text_border"
+        android:elevation="10dp"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:paddingRight="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/buttonSignin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/sign_in"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmailID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/button_border"
+        android:layout_marginTop="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
